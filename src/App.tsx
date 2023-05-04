@@ -1,5 +1,5 @@
 const App = () => {
-  return <>api key</>;
+  return <>Artify</>;
 };
 
 export default App;
