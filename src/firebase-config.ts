@@ -2,11 +2,10 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
-
-const apiKey = import.meta.env.VITE_FIREBASE_API_KEY;
+import { FIREBASE_API_KEY } from "./constants";
 
 const firebaseConfig = {
-  apiKey,
+  apiKey: FIREBASE_API_KEY,
   authDomain: "artify-f893b.firebaseapp.com",
   projectId: "artify-f893b",
   storageBucket: "artify-f893b.appspot.com",
