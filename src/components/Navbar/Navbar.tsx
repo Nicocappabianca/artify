@@ -37,7 +37,7 @@ const Navbar = () => {
             ) : (
               <div className="d-flex">{user.displayName || "Guest"}</div>
             )}
-            <div onClick={logout} className="link cursor-pointer" role="button">
+            <div onClick={logout} className="logout-button" role="button">
               <Logout />
             </div>
           </>

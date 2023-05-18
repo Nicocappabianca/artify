@@ -47,13 +47,21 @@ header .menu {
 }
 
 header .menu .link {
-  padding: 10px 20px;
+  padding-right: 20px;
   text-decoration: none;
   color: #555;
 }
 
+header .menu .logout-button {
+  color: #555;
+  cursor: pointer;
+}
+
 @media (hover: hover) {
   header .menu .link:hover {
+    color: #808080;
+  }
+  header .menu .logout-button:hover {
     color: #808080;
   }
 }
