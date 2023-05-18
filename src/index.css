@@ -81,6 +81,11 @@ header .menu .link {
   cursor: pointer;
 }
 
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .container {
   margin: auto;
   max-width: 1000px;

@@ -20,6 +20,11 @@ const Navbar = () => {
         <Link className="link" to="/">
           Home
         </Link>
+        {user && (
+          <Link className="link" to="/generate">
+            Generate
+          </Link>
+        )}
         {user ? (
           <>
             {user.photoURL ? (
