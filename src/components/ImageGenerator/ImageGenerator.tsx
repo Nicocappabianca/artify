@@ -39,6 +39,7 @@ const ImageGenerator = () => {
           name="input"
           placeholder="type your prompt here..."
           onChange={(event) => setPrompt(event.target.value)}
+          autoComplete="off"
         />
         <button type="submit" className={`button ${!prompt && "disabled"}`} disabled={!prompt}>
           Generate
